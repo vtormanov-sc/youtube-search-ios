@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - youtube-ios-player-helper (0.1.6)
+
+DEPENDENCIES:
+  - Moya (~> 11.0)
+  - youtube-ios-player-helper (from `https://github.com/youtube/youtube-ios-player-helper`, commit `head`)
+
+EXTERNAL SOURCES:
+  youtube-ios-player-helper:
+    :commit: head
+    :git: https://github.com/youtube/youtube-ios-player-helper
+
+CHECKOUT OPTIONS:
+  youtube-ios-player-helper:
+    :commit: head
+    :git: https://github.com/youtube/youtube-ios-player-helper
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  youtube-ios-player-helper: 21ab92db027c7ff86cb17a3843a3f6eafc8158d2
+
+PODFILE CHECKSUM: 271064c2d2603c78d9d80b6d2afec9962cc67bab
+
+COCOAPODS: 1.4.0
